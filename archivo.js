@@ -8,10 +8,10 @@ class verdu{
     }
 }
 
-let verdu1 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
-let verdu2 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
-let verdu3 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
-let verdu4 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
+let verdu1 = new verdu(prompt("Ingrese nombre producto"),prompt("Fruta - Verdura - Almacen"),prompt("Ingrese precio"),prompt("Ingrese stock"));
+let verdu2 = new verdu(prompt("Ingrese nombre producto"),prompt("Fruta - Verdura - Almacen"),prompt("Ingrese precio"),prompt("Ingrese stock"));
+let verdu3 = new verdu(prompt("Ingrese nombre producto"),prompt("Fruta - Verdura - Almacen"),prompt("Ingrese precio"),prompt("Ingrese stock"));
+let verdu4 = new verdu(prompt("Ingrese nombre producto"),prompt("Fruta - Verdura - Almacen"),prompt("Ingrese precio"),prompt("Ingrese stock"));
 
 const verduleria = []
 
@@ -21,3 +21,4 @@ verduleria.push (verdu3);
 verduleria.push (verdu4);
 
 console.log(verduleria);
+
