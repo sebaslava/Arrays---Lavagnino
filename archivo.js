@@ -8,10 +8,10 @@ class verdu{
     }
 }
 
-let verdu1 = new verdu(prompt("ingrese nombre Producto"))
-let verdu2 = new verdu(prompt("Ingrese tipo"))
-let verdu3 = new verdu(prompt("Ingrese precio"))
-let verdu4 = new verdu(prompt("Ingrese dato"))
+let verdu1 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
+let verdu2 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
+let verdu3 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
+let verdu4 = new verdu(prompt("ingrese nombre Producto"),prompt("ingrese tipo de producto"),prompt("ingrese precio"),prompt("ingrese stock"));
 
 const verduleria = []
 
